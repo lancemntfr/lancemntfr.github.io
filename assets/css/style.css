@@ -1,0 +1,55 @@
+.profile-img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand-custom {
+        font-size: 1.25rem;
+    }
+
+    .nav-link-custom {
+        margin: 0 0.25rem;
+        font-size: 0.9rem;
+    }
+
+    .profile-img {
+        max-width: 280px;
+    }
+
+    .profile-image {
+        max-width: 250px;
+        margin-top: 1rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .card-img-custom {
+        height: 150px;
+    }
+}
+
+@media (max-width: 576px) {
+    .profile-img {
+        max-width: 220px;
+    }
+
+    .profile-image {
+        max-width: 200px;
+    }
+
+    .section-title {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-img {
+        max-width: 180px;
+    }
+}
